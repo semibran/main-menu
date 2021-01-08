@@ -1,9 +1,9 @@
 import * as params from "./params"
 import colors from "../../palette"
-import rgba from "../lib/rgba"
-import recolor from "../lib/img-recolor"
-import normalize from "../lib/img-normalize"
-import Canvas from "../lib/canvas"
+import rgba from "../../../lib/rgba"
+import recolor from "../../../lib/img-recolor"
+import normalize from "../../../lib/img-normalize"
+import Canvas from "../../../lib/canvas"
 
 export function create() {
 	let inited = false

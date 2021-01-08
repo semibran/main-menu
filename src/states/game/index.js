@@ -1,7 +1,7 @@
 import colors from "../../palette"
-import colerp from "../lib/colerp"
-import Canvas from "../lib/canvas"
-import rgba from "../lib/rgba"
+import colerp from "../../../lib/colerp"
+import Canvas from "../../../lib/canvas"
+import rgba from "../../../lib/rgba"
 
 export function create() {
 	let inited = false

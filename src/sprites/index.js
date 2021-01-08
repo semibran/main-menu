@@ -28,11 +28,11 @@ export default function normalize(spritesheet) {
 			return frames
 		})(sprites.burst),
 		Text: {
-			default: createFont({ image: sprites["6x9"], ...fonts["6x9"] }),
-			block: createFont({ image: sprites["6x10"], ...fonts["6x10"] }),
-			display: createFont({ image: sprites["16x16"], ...fonts["16x16"] }),
-			title: createFont({ image: sprites["24x24"], ...fonts["24x24"] }),
-			thin: createFont({ image: sprites["5x9"], ...fonts["5x9"] })
+			normal: createFont({ ...fonts["6x9"], image: sprites["6x9"] }),
+			block: createFont({  ...fonts["6x10"], image: sprites["6x10"] }),
+			display: createFont({ ...fonts["16x16"], image: sprites["16x16"] }),
+			title: createFont({ ...fonts["24x24"], image: sprites["24x24"] }),
+			thin: createFont({ ...fonts["5x9"], image: sprites["5x9"] })
 		}
 	}
 }

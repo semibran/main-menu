@@ -8,6 +8,7 @@
   "main": "src/index.js",
   "keywords": [],
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "autoprefixer": "*",
     "babel-cli": "*",
     "babel-preset-env": "*",
@@ -20,6 +21,7 @@
     "key-state": "*",
     "node-sass": "*",
     "pack": "*",
+    "postcss": "^8.2.3",
     "postcss-cli": "*",
     "rollup": "*",
     "rollup-plugin-commonjs": "*",

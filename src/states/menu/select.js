@@ -1,10 +1,10 @@
 import * as params from "./params"
 import colors from "../../palette"
-import rgba from "../lib/rgba"
-import colerp from "../lib/colerp"
-import Canvas from "../lib/canvas"
-import recolor from "../lib/img-recolor"
-import normalize from "../lib/img-normalize"
+import rgba from "../../../lib/rgba"
+import colerp from "../../../lib/colerp"
+import Canvas from "../../../lib/canvas"
+import recolor from "../../../lib/img-recolor"
+import normalize from "../../../lib/img-normalize"
 
 export function create() {
 	let inited = false

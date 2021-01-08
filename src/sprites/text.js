@@ -3,7 +3,7 @@ import Canvas from "../../lib/canvas"
 import recolor from "../../lib/typeface-recolor"
 import colors from "../palette"
 
-export default function Text(font) {
+export default function createFont(font) {
 	let cache = { [colors.white]: {} }
 	for (let char in font.charmap) {
 		let rect = font.charmap[char]
