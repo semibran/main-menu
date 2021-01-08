@@ -1,0 +1,30 @@
+{
+  "name": "fsm",
+  "version": "0.0.0",
+  "description": "sandbox for view finite state machine",
+  "author": "semibran (Brandon Semilla)",
+  "repository": "semibran/fsm",
+  "license": "MIT",
+  "main": "src/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "autoprefixer": "*",
+    "babel-cli": "*",
+    "babel-preset-env": "*",
+    "clean-css-cli": "*",
+    "gh-pages": "*",
+    "html-minifier": "*",
+    "img-extract": "*",
+    "img-load": "*",
+    "jimp": "*",
+    "key-state": "*",
+    "node-sass": "*",
+    "pack": "*",
+    "postcss-cli": "*",
+    "rollup": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-json": "*",
+    "rollup-plugin-node-resolve": "*",
+    "uglify-js": "*"
+  }
+}

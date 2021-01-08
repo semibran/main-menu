@@ -1,0 +1,5 @@
+exports["5x9"] = require("./5x9")
+exports["6x9"] = require("./6x9")
+exports["6x10"] = require("./6x10")
+exports["16x16"] = require("./16x16")
+exports["24x24"] = require("./24x24")
